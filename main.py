@@ -19,12 +19,12 @@ logger = logging.getLogger(__name__)
 
 # Инициализация OpenAI клиента (DeepSeek)
 client = OpenAI(
-    api_key="sk-enX2BjrwH1bk-fSrEH_SxQ",
-    base_url="https://api.artemox.com/v1"
+    api_key="",
+    base_url=""
 )
 
 # Инициализация бота
-bot = telebot.TeleBot("8584387691:AAHyDOH7UCfgQbv5LtzZsAbxhhyeDZwB6j0")
+bot = telebot.TeleBot("")
 
 # Расширенная база данных подарков
 GIFT_DATABASE = {
